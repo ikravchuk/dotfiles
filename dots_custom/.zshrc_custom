@@ -1,0 +1,14 @@
+# custom scripts
+export PATH="~/scripts:$PATH"
+
+# PROJECTS
+alias prj="cd ~/projects/"
+alias dotf="cd ~/projects/dotfiles"
+alias phd="cd ~/projects/PhD_thesis/"
+
+# INITIATIONS
+alias initmake="~/scripts/initmake.sh"
+
+# PRESENTATIONS
+alias pre="xrandr --output HDMI-1 --auto --right-of eDP-1"
+alias preoff="xrandr --output HDMI-1 --off"
